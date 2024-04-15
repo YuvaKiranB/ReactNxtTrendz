@@ -1,0 +1,122 @@
+/* Write your CSS code here */
+.loginFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loginImage {
+  display: none;
+}
+
+.formCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.loginImageSmall {
+  width: 100%;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.logoImage {
+  width: 60%;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputLabel {
+  margin-bottom: 5px;
+  color: #475569;
+  font-weight: 600;
+  font-family: roboto;
+  font-size: 18px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d7dfe9;
+  outline: none;
+}
+
+.passwordContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.submitButton {
+  align-self: center;
+  width: 98%;
+  font-family: roboto;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 400;
+  background-color: #0b69ff;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.errorMessage {
+  color: #ff0b37;
+  font-family: roboto;
+  font-size: 16px;
+  margin-top: 4px;
+  padding-top: 0px;
+  align-self: center;
+  width: 98%;
+}
+
+@media (min-width: 768px) {
+  .loginFormContainer {
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .loginImage {
+    display: block;
+    width: 50%;
+    margin-right: 100px;
+  }
+
+  .loginImageSmall {
+    display: none;
+  }
+
+  .formCard {
+    width: 450px;
+    padding: 50px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 10px;
+  }
+}

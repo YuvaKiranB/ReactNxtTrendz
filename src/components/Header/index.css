@@ -1,0 +1,121 @@
+/* Write your CSS code here */
+.navHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.websiteLogo {
+  height: 40px;
+}
+
+.menu {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  display: none;
+}
+
+.logoutButton {
+  display: none;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.navButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #e6f6ff;
+  margin-top: 20px;
+}
+
+.logoutButtonSmall {
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.logoutImage {
+  height: 30px;
+}
+
+.navIcon {
+  height: 30px;
+}
+
+@media (min-width: 768px) {
+  .navButtons {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+  .logoutButtonSmall {
+    display: none;
+  }
+  .logoutButton {
+    display: inline;
+  }
+
+  .navContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .li {
+    margin-right: 20px;
+  }
+
+  .link {
+    font-family: roboto;
+    text-decoration: none;
+    color: #1e293b;
+    cursor: pointer;
+  }
+
+  .linkButtons {
+    background-color: transparent;
+    border-width: 0px;
+    font-size: 20px;
+  }
+
+  .logoutButton {
+    padding: 8px;
+    width: 100px;
+    font-size: 20px;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0b69ff;
+  }
+}

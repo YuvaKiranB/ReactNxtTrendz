@@ -1,0 +1,110 @@
+/* Write your CSS code here */
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeH1 {
+  font-family: roboto;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.homeImage1 {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.homeRoute {
+  margin: 20px;
+  margin-top: 30px;
+}
+
+.homeText {
+  width: 90%;
+  font-family: roboto;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #64748b;
+  line-height: 1.8;
+}
+
+.shopNowButton {
+  padding: 10px;
+  width: 50%;
+  font-size: 16px;
+  font-family: roboto;
+  color: white;
+  background-color: #0b69ff;
+  border-width: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.homeImage2 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .homeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+  }
+
+  .homeContent {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .homeImage1 {
+    display: none;
+  }
+
+  .homeH1 {
+    text-align: start;
+    font-size: 50px;
+  }
+
+  .homeText {
+    text-align: start;
+    font-size: 18px;
+  }
+
+  .shopNowButton {
+    width: 150px;
+  }
+
+  .homeImage2 {
+    display: block;
+    width: 40%;
+  }
+
+  .homeRoute {
+    max-width: 1200px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
